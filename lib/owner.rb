@@ -1,4 +1,3 @@
 class Owner
-  # code goes here
-
- end
+  attr_accessor :cat, :dog, :fish
+def initialize(cat,dog,fish)
